@@ -1,6 +1,6 @@
-l=input()
+c=input()
 if ord(l)>=97 or ord(l)<=122 :
- if l=='a' or l=='e' or l=='i' or l=='o' or l=='u' :
+ if c=='a' or c=='e' or c=='i' or c=='o' or c=='u' :
   print("Vowel")
  else :
   print("Consonant")
