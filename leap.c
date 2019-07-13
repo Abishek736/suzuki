@@ -12,13 +12,13 @@ int main()
             if ( year%400 == 0)
                 printf("%d", year);
             else
-                printf("%d is not a leap year.", year);
+                printf("no");
         }
         else
             printf("%d", year );
     }
     else
-        printf("%d is not a leap year.", year);
+        printf("no");
     
     return 0;
 }
