@@ -1,19 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int e,b,c;
+    int a,b,c;
     printf("enter the value a,b,c");
-    scanf("%d%d%d",&e,&b,&c);
-    if(e>b)
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b)
     {
-        printf("e is greater");
+        printf("%d",a);
     }
     if(b>c)
     {
-        printf("b is greater");
+        printf("%d",b);
     }
     else
     {
-        printf("c is greater");
+        printf("%d",c);
     }
-}
