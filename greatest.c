@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
+    int e,b,c;
     printf("enter the value a,b,c");
-    scanf("%d%d%d",&a,&b,&c);
-    if(a>b)
+    scanf("%d%d%d",&e,&b,&c);
+    if(e>b)
     {
-        printf("a is greater");
+        printf("e is greater");
     }
     if(b>c)
     {
