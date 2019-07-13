@@ -1,5 +1,5 @@
 a=str(input().casefold())
 if(a.isalpha()):
-  print("this is Alphabet")
+  print("Alphabet")
 else:
   print("No")
